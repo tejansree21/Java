@@ -1,0 +1,35 @@
+# A program to add two numbers and display the result.
+
+class Addition
+{
+  public static void main(String args[])
+  {
+    int a = 10, b = 15, c;
+    c = a+b;
+    System.out.println("a value = ",+a);
+    System.out.println("b value = ",+b);
+    System.out.println("Result = ",+c);
+  }
+}
+
+#OUTPUT
+a value = 10
+b value = 15
+c value = 25
+
+# A program to evaluate the following and display the result
+# z = (x+y)*(a-b)
+# x = 20, y = 25, a = 100, b = 78
+
+class Equation
+{
+  public static void main(String args[])
+  {
+    int x = 20, y = 25, a = 100, b = 78;
+    int z = (x+y)*(a-b);
+    System.out.println("Result ="+z);
+  }
+}
+
+#OUTPUT
+Result = 990
