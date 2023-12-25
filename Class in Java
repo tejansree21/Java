@@ -1,8 +1,8 @@
-Define "Class" in Java?
-Class is a Structured Layout and which generate Objects.
-Class is a collection of Variables,Methods,Blocks,Constructors, and main().
+Define "Class" in Java.
+Class is a Structured Layout which generates Objects.
+Class is a collection of Variables, Methods, Blocks, Constructors, and main().
 
-We use "class" keyword to declare classes in Java:-
+We use the "class" keyword to declare classes in Java:-
 Structure of class:-
 class Class_name
 {
@@ -13,4 +13,7 @@ class Class_name
   //Main()
 }
 
-In Java main
+In Java main() has the following pre-defined format
+public static void main(String args[])
+
+In Java, the class_name starts with an uppercase letter.
