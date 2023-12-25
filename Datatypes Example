@@ -1,0 +1,14 @@
+# A sample Program of Datatypes
+
+class DataTypes
+{
+  public static void main(String args[])
+  {
+    char c = 'f';
+    boolean b = true;
+    String name = "Tejan";
+    System.out.println("Character =,+c);
+    System.out.println("Boolean =,+b);
+    System.out.println("String =,+name);
+  }
+}
