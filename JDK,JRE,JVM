@@ -1,0 +1,22 @@
+JDK 
+JDK stands for "Java Development Kit" and which has the following subcomponents.
+1 - Java Compiler
+2 - JVM
+3 - JavaLib
+
+1 - Java Compiler
+Java Compiler will compile the Source code and generate Byte code when the compilation is successful.
+
+2 - JVM
+JVM stands for "Java Virtual Machine" and which is used to execute byte code.
+The software component which internally having behaviour like machine is known as virtual machine.
+
+3 - JavaLib
+JavaLib will provide pre-defined ready constructed components which are used in application development.
+
+JRE
+JRE stands for "Java Run-time Environment" and whichc is an execution environment of JDK.
+JRE is collection of JVM and JavaLib.
+
+JVM
+JVM is part of JRE
