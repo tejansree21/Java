@@ -1,0 +1,27 @@
+History of Java
+James Gosling has joined the Sun Micro Systems in 1991 as code writer (programmer) Java was released in 1995
+
+Installing Java software and setting path
+
+Step 1 - Download JDK17 LTS product from Oracle Website
+Link : https://www.oracle.com/in/java/technologies/downloads/#java17
+Step 2 - Install JDK
+
+Note:
+After Installation process is Successfull,we can find one folder with name "Java" in "ProgramFiles".
+C:\Program Files\Java
+
+Step 3 - Open "Environment Variables" and set Java path
+Right click on Mycomputer->Properties->Advanced System Settings->Environment variables->click "new" from system variables
+
+Variable name : path
+Variable value : C:\Program Files\Java\jdk-17.0.4.1\bin;
+
+Step 4 - click "ok" 
+
+To check whether the JDK has added or not
+Open CommandPrompt and Check the following the commands working or not
+
+Javac - Compilation command
+Java - Exxecution command
+
