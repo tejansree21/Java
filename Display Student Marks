@@ -1,0 +1,11 @@
+# A program to display the total marks of a student
+
+class Marks
+{
+  public static void main(String args[])
+  {
+    int t=78,h=79,e=98,m=80,s=97,ss=97;
+    int totMarks = t+h+e+m+s+ss;
+    System.out.println("Total Marks = ", totMarks);
+  }
+}
