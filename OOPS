@@ -1,0 +1,11 @@
+# Object Oriented Programming 
+
+=> The process of constructing programs using class-object concept
+=> In Object Oriented programming we work with Non-Primitive datatypes
+
+define Object?
+=> Object is a storage related to class holding memebers of the class.
+=> We use "new" keyword in java to create objects.
+
+Syntax for object creation:-
+class_name object_name = new class_name();
