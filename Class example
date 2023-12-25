@@ -1,0 +1,9 @@
+# A program to display the message "Welcome to java".
+
+class Display
+{
+  public static void main(String args[])
+  {
+    System.out.println("Welcome to java")
+  }
+}
