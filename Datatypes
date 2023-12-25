@@ -1,0 +1,60 @@
+# Datatypes in Java
+
+The types of data that we expect as input to Java programs are known as Datatypes.
+Datatypes in Java are categorized into 2 types
+1. Primitive Datatypes
+2. NonPrimitive Datatypes
+
+1. Primitive Datatypes
+
+The "single-valued data formats" are known as Primitive datatypes.
+These Primitive datatypes are categorized into 4 types:- 
+(a) Integer Datatype
+The numeric data which represented without decimal points.
+These Integer Datatypes are categorized into four types:-
+1. byte 
+2. short
+3. int
+4. long
+
+
+(b) Float Datatype
+The numeric data is represented with decimal points.
+These Float Datatypes are categorized into two types:- 
+1. float
+2. double
+
+
+(c) Character Datatype
+The single-valued character is represented in single quotes.
+'c', 'f', 'g' etc.,
+
+(d) Boolean Datatype
+The data which represented in the form of true or false is known as a boolean datatype.
+
+
+Note:- 
+=>Byte and short Datatypes are used for multimedia data or Stream data.
+=>Int is used for normal programming.
+=>Long datatype is used to hold biggest numbers like phone numbers, account numbers, etc.,
+=>To assign a long value we must use L or l in the RHS of declaration
+  ex:- long l = 63036767000L;
+=>float datatype is used in normal programming.
+=>To assign float-value we must use F or f in the RHS of decalration.
+  ex:- float F = 23.3f;
+=> Double is used to hold the largest scientific calculated value.
+
+
+2. Non-Primitive Datatypes
+
+The group-valued data formats are known as Non-Primitive Datatypes.
+
+These Non-Primitive datatypes are categorized into four types:-
+a. Class
+b. Interface
+c. Array
+d. Enum
+
+
+define String Datatype?
+String in Java is a Non-Primitive datatype which is a sequenced collection of characters represented in double quotes.
