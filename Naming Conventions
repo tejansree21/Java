@@ -1,0 +1,20 @@
+# Naming Conventions in Java
+
+The coding rules followed by the programmer in writing Java programs are known as Naming Conventions.
+
+(1) Packages
+def:- packages are collection of "classess and interfaces".
+rule:- packages must be in lower cavarse.
+
+(2) Classes and Interfaces
+def:- classes and Interfaces are collection of variables and methods.
+rule:- The starting letter of every word in classes and Interfaces must be uppercase.
+
+(3) Variables and Methods
+def:- Variables are data holders.
+      Methods are actions.
+rule:- In variables and methods the first word must be lower case from second word onwards the first letter must be upper case.
+
+(4) Keywords
+def:- The pre-defined words from the lib are known as Keywords or Bulit-in words.
+rule:- The keywords must be lower case.
