@@ -1,0 +1,34 @@
+# Variables
+
+=>Variables are the data holders in the program.
+=>Based on datatype,the variables in Java are categorized into two types:
+
+1.Primitive DataType variables
+2.NonPrimitive DataType variables
+
+1.Primitive DataType variables:
+
+=> The variables which are declared with primitive datatypes like byte,short,int,long,float,double,char,boolean are known as Primitive DataType Variables.
+=> These Primitive datatype variables will hold values.
+
+2.NonPrimitive DataType variables:
+=> The variables which are declared with NonPrimitive datatypes like Class,Interface,Array and Enum are known as NonPrimitive datatype or Referential datatypes.
+=> These NonPrimitive datatype variables will hold Object references or Object addresses.
+
+"static" keyword in Java:
+=> "static" keyword in java,specify the location of component-memory in class or object.
+
+=> Based on &quot;static&quot; keyword the variables in Java are categorized into two types:
+1.static variables
+2.NonStatic variables
+
+1.static variables:
+=> The variables which are declared with &quot;static&quot; keyword outside the methods are known as &quot;static variables&quot; or Class variables
+=> These static variables can be accessed with class_name.
+
+2. Non static variables
+=> The variables which are declared without the "static" keyword are known as non static variables.
+=> Non static variables are categorized into two types:
+(a) Instance variables
+(b) Local variables
+
