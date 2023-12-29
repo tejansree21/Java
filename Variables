@@ -59,3 +59,11 @@ class DemoVariables
   }
 }
 
+
+
+Define static Local variable.
+=> There is no concept of static local variables in Java because static variables mean memory in class and cannot get memory at the method level giving compilation error.
+
+Define  Global variables in Java.
+=> There is no concept of global variables cause the variables are either class or object or method level.
+
