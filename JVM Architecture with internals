@@ -32,3 +32,16 @@ c. Java Stack area
 => The main method is copied onto the Java Stack area automatically the execution process will start.
 
 d. PC Register area
+=> Progam counter (PC) Registers will hold the status of method execution in the Java stack area and monitor the execution process.
+=> Every method that is executed in the Java stack area will have its PC register.
+
+e. Native method area
+=> The methods that are declared with the "Native" keyword are known as native methods and these methods internally have c/c++ code.
+
+
+3. Execution Engine
+=> Execution Engine is an executor of JVM and which starts the execution process from main() available in JavaStackArea.
+=> This Execution Engine is also known as virtual processor.
+=> This Execution Engine internally has two translators:
+  a. Interpreter
+  b. JIT - Compiler
