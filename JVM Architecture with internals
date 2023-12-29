@@ -1,14 +1,14 @@
 JVM Architecture with internals
 
-JVM stands for Java Virtual Machine and which is executes Java byte code and generate result.
+JVM stands for Java Virtual Machine which executes Java byte code and generates results.
 
-JVM internally have the following partitions
+JVM internally has the following partitions
 =>Class Loader SubSystem
 => Runtime data area
 => Execution Engine 
 
 1. Class Loader SubSytem
-Class Loader SubSystem will load the class files onto 'Runtime data area' using internal loader
+Class Loader SubSystem will load the class files onto the 'Runtime data area' using an internal loader
 
 2. Runtime data area
 => This Runtime data area has the following subareas:-
@@ -19,15 +19,16 @@ Class Loader SubSystem will load the class files onto 'Runtime data area' using 
   e. Native Method area
 
 a. Method area
-=> The class loader Subsystem will load the class files onto method area.
+=> The class loader Subsystem will load the class files onto the method area.
 => While class loading static components will get the memory within the class.
-=> Once the main method got the memory within the class then it is automatically copied onto javastack area to the execution process.
+=> Once the main method gets the memory within the class then it is automatically copied onto the Java stack area to the execution process.
 
 b. Heap area
-=> The location where objects are created is known as Heap area
-=> Object means one storage created in Heap area to hold instance memeber of the class.
+=> The location where objects are created is known as the Heap area
+=> Object means one storage created in the Heap area to hold an instance member of the class.
 
 c. Java Stack area
-=> The location where methods are executed are known as Java stack area or Execution area.
-=> Main-method is copied onto Java Stack area automatically the excution process will start.
+=> The location where methods are executed is known as the Java stack area or Execution area.
+=> The main method is copied onto the Java Stack area automatically the execution process will start.
 
+d. PC Register area
