@@ -1,0 +1,33 @@
+JVM Architecture with internals
+
+JVM stands for Java Virtual Machine and which is executes Java byte code and generate result.
+
+JVM internally have the following partitions
+=>Class Loader SubSystem
+=> Runtime data area
+=> Execution Engine 
+
+1. Class Loader SubSytem
+Class Loader SubSystem will load the class files onto 'Runtime data area' using internal loader
+
+2. Runtime data area
+=> This Runtime data area has the following subareas:-
+  a. Method area
+  b. Heap area
+  c. Java Stack area
+  d. PC Register area
+  e. Native Method area
+
+a. Method area
+=> The class loader Subsystem will load the class files onto method area.
+=> While class loading static components will get the memory within the class.
+=> Once the main method got the memory within the class then it is automatically copied onto javastack area to the execution process.
+
+b. Heap area
+=> The location where objects are created is known as Heap area
+=> Object means one storage created in Heap area to hold instance memeber of the class.
+
+c. Java Stack area
+=> The location where methods are executed are known as Java stack area or Execution area.
+=> Main-method is copied onto Java Stack area automatically the excution process will start.
+
