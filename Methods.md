@@ -41,4 +41,17 @@ return_type Method_name(parameter_list)
 
 => Instance methods can access both class variables and Instance variables directly.
 
+define Method Frame?
+=> The partition of the Java stack area where the method is copied for execution is known as the Method Frame.
+=> After method execution is completed the method frame will be destroyed automatically.
 
+define Parameters?
+=> Parameters are the variables that are used to transfer the data from one method to another method.
+=> Based on parameters the methods are categorized into two types
+  1. Methods without parameters
+  2. Methods with parameters
+
+Methods without parameters
+=> The methods that are declared without parameters
+
+Methods with parameters
